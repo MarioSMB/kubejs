@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"kubejs:tin_ore","required":false},
+    {"id":"kubejs:deepslate_tin_ore","required":false}
+  ]
+}

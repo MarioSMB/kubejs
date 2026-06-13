@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/obdurium"
+    }
+  },
+  "result": {
+    "item": "createmetallurgy:obdurium_ingot",
+    "count": 1
+  }
+}

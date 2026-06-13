@@ -1,0 +1,16 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "aether:enchanting",
+  "category": "enchanting_blocks",
+  "cookingtime": 750,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "aether:gravitite_ore"
+  },
+  "result": "kubejs:gravitite_ingot"
+}

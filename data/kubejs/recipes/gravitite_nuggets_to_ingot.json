@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/gravitite"
+    }
+  },
+  "result": {
+    "item": "kubejs:gravitite_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"kubejs:tin_sheet","required":false}
+  ]
+}

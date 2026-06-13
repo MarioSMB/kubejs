@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"kubejs:platinum_nugget","required":false}
+  ]
+}

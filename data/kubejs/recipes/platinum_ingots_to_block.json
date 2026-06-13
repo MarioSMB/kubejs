@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:ingots/platinum"
+    }
+  },
+  "result": {
+    "item": "kubejs:platinum_block",
+    "count": 1
+  }
+}

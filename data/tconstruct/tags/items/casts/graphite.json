@@ -1,0 +1,30 @@
+{
+  "values": [
+    "kubejs:graphite_gem_mold",
+    "kubejs:graphite_repair_kit_mold",
+    "kubejs:graphite_coin_mold",
+    "kubejs:graphite_wire_mold",
+    "kubejs:graphite_pick_head_mold",
+    "kubejs:graphite_small_axe_head_mold",
+    "kubejs:graphite_small_blade_mold",
+    "kubejs:graphite_adze_head_mold",
+    "kubejs:graphite_hammer_head_mold",
+    "kubejs:graphite_broad_axe_head_mold",
+    "kubejs:graphite_broad_blade_mold",
+    "kubejs:graphite_large_plate_mold",
+    "kubejs:graphite_tool_binding_mold",
+    "kubejs:graphite_tough_binding_mold",
+    "kubejs:graphite_tool_handle_mold",
+    "kubejs:graphite_tough_handle_mold",
+    "kubejs:graphite_bow_limb_mold",
+    "kubejs:graphite_bow_grip_mold",
+    "kubejs:graphite_helmet_plating_mold",
+    "kubejs:graphite_chestplate_plating_mold",
+    "kubejs:graphite_leggings_plating_mold",
+    "kubejs:graphite_boots_plating_mold",
+    "kubejs:graphite_maille_mold",
+    "kubejs:graphite_arrow_mold",
+    "kubejs:graphite_spellbook_plating_mold",
+    "kubejs:graphite_faceted_gem_mold"
+  ]
+}

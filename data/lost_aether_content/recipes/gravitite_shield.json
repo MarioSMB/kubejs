@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "lost_aether_content"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "minecraft:shield",
+  "key": {
+    "G": {
+      "tag": "aether:processed/gravitite"
+    },
+    "R": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "GRG",
+    "GGG",
+    " G "
+  ],
+  "result": {
+    "item": "lost_aether_content:gravitite_shield"
+  },
+  "show_notification": true
+}

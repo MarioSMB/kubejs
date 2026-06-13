@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createmetallurgy"
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "createmetallurgy:graphite_blank_mold"
+  },
+  "result": "kubejs:graphite_bow_grip_mold"
+}

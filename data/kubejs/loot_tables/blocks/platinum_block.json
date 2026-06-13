@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "kubejs:blocks/platinum_block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "kubejs:platinum_block"
+        }
+      ]
+    }
+  ]
+}

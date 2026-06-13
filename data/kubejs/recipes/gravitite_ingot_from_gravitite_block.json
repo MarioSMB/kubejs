@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gravitite_ingot",
+  "ingredients": [
+    {
+      "item": "aether:enchanted_gravitite"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "kubejs:gravitite_ingot"
+  }
+}

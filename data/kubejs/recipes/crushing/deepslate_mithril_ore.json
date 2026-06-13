@@ -1,0 +1,32 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "irons_spellbooks:deepslate_mithril_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+    {
+      "chance": 0.75,
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobbled_deepslate"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

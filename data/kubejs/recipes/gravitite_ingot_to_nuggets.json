@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/gravitite"
+    }
+  ],
+  "result": {
+    "item": "kubejs:gravitite_nugget",
+    "count": 9
+  }
+}
