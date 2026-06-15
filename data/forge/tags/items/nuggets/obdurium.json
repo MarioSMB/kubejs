@@ -1,6 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    {"id":"kubejs:obdurium_nugget","required":false}
-  ]
-}

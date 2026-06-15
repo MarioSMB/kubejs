@@ -41,4 +41,11 @@ ServerEvents.tags('block', event => {
 
 ServerEvents.tags('item', event => {
   event.remove('forge:plates', 'tinkers_reforged:graphite_plate')
+
+  event.remove('forge:raw_meat', 'farmersdelight:chicken_cuts')
+  event.remove('forge:raw_meat', 'farmersdelight:mutton_chops')
+  event.remove('forge:raw_chicken', 'farmersdelight:chicken_cuts')
+  event.remove('forge:raw_mutton', 'farmersdelight:mutton_chops')
+  event.remove('forge:cooked_mutton', 'farmersdelight:cooked_mutton_chops')
+  event.remove('forge:cooked_chicken', 'farmersdelight:cooked_chicken_cuts')
 })
