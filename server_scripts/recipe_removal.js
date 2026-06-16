@@ -18,8 +18,18 @@ ServerEvents.recipes((e) => {
     "createmetallurgy:zinc_dust",
     "createmetallurgy:tungsten_dust",
     "createmetallurgy:faucet",
-    "tconstruct:seared_melter",
-    "tconstruct:seared_heater",
+    "eeeabsmobs:immortal_block",
+    "eeeabsmobs:immortal_ingot",
+    "eeeabsmobs:ghost_warrior_upgrade_smithing_template",
+    "eeeabsmobs:ghost_warrior_helmet",
+    "eeeabsmobs:ghost_warrior_chestplate",
+    "eeeabsmobs:ghost_warrior_leggings",
+    "eeeabsmobs:ghost_warrior_boots",
+    "eeeabsmobs:ghost_steel_block",
+    "eeeabsmobs:cut_ghost_steel",
+    "eeeabsmobs:cut_ghost_steel_stairs",
+    "eeeabsmobs:cut_ghost_steel_slab",
+    "eeeabsmobs:ghost_steel_ingot",
   ];
   // for specific recipes that are being disabled
   //const removeById = [
@@ -30,6 +40,26 @@ ServerEvents.recipes((e) => {
   //});
   removeByOutput.forEach((item) => {
     e.remove({ output: item });
+  });
+
+  // metal smelting recipes
+  const removeBySmelting = [
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:gold_ingot",
+    "create:zinc_ingot",
+    "kubejs:nickel_ingot",
+    "kubejs:aluminum_ingot",
+    "oreganized:silver_ingot",
+    "tinkers_reforged:yttrium_ingot",
+    "tinkers_reforged:barium_ingot",
+    "tinkers_reforged:thallium_ingot",
+    "tconstruct:cobalt_ingot",
+    "betterend:thallasium_ingot",
+    "caverns_and_chasms:tin_ingot",
+  ]
+  removeBySmelting.forEach((item) => {
+    e.remove([{ type: 'minecraft:smelting', output: item }, { type: 'minecraft:blasting', output: item }]);
   });
 });
 
