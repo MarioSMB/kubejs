@@ -185,4 +185,13 @@ ServerEvents.recipes(event => {
   sawmill("betterend:tenanea_", "logs");
   sawmill("betterend:umbrella_tree_", "logs");
 
+  // Jaden's Nether Expansion
+  sawmill("netherexp:claret_", "stems");
+
+  // Infernal Expansion
+  // NOTE: the tag for their logs is added by me, they didn't add one...
+  // unfortunately thanks to their stupid naming scheme
+  // support remains in datapacks
+  //sawmill("infernalexp:luminous_", "stems");
+
 });
