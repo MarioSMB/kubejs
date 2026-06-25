@@ -32,48 +32,6 @@ StartupEvents.registry('item', e => {
   e.create('gravitite_ingot').tag("minecraft:beacon_payment_items").rarity('RARE')
   e.create('gravitite_nugget').rarity('RARE')
   e.create('raw_gravitite')
-
-  // Create: Metallurgy extended compatibility
-  // commented out ones already exist in the base mod!
-  function graphitemold(item) {
-    e.create("graphite_" + item + "_mold").texture("kubejs:item/graphite_mold/" + item)
-  }
-  graphitemold('adze_head')
-  graphitemold('arrow')
-  //graphitemold('blank')
-  graphitemold('boots_plating')
-  graphitemold('bow_grip')
-  graphitemold('bow_limb')
-  //graphitemold('bowstring')
-  graphitemold('broad_axe_head')
-  graphitemold('broad_blade')
-  graphitemold('chestplate_plating')
-  // we don't have coins
-  //graphitemold('coin')
-  //graphitemold('fletching')
-  //graphitemold('gear')
-  graphitemold('gem')
-  graphitemold('hammer_head')
-  graphitemold('helmet_plating')
-  //graphitemold('ingot')
-  graphitemold('large_plate')
-  graphitemold('leggings_plating')
-  graphitemold('maille')
-  //graphitemold('nugget')
-  graphitemold('pick_head')
-  //graphitemold('plate')
-  graphitemold('repair_kit')
-  //graphitemold('rod')
-  graphitemold('small_axe_head')
-  graphitemold('small_blade')
-  graphitemold('tool_binding')
-  graphitemold('tool_handle')
-  graphitemold('tough_binding')
-  graphitemold('tough_handle')
-  graphitemold('wire')
-  // Construct's Casting compatibility
-  graphitemold('faceted_gem')
-  graphitemold('spellbook_plating')
 })
 
 StartupEvents.registry('block', e => {
