@@ -1,4 +1,6 @@
-ServerEvents.recipes((e) => {
+// As an alternative to manually disabling recipes via datapacks
+
+ServerEvents.recipes(event => {
   // for items that "removed", disable any recipes that create them
   const removeByOutput = [
     "tinkers_reforged:slimebronze_gear",
@@ -66,16 +68,42 @@ ServerEvents.recipes((e) => {
     "spore:fiber_stew",
     "spore:maul",
     "spore:combat_shovel",
+    "scguns:macerator",
+    "scguns:powered_macerator",
+    "scguns:polar_generator",
+    "scguns:mechanical_press",
+    "scguns:powered_mechanical_press",
+    "scguns:jetpack_module",
+    "scguns:night_vision_module",
+    "scguns:target_tracker_module",
+    "scguns:rebreather_module",
+    "scguns:rabbit_module",
+    "scguns:suit_grease",
+    "scguns:tension_spring",
+    "scguns:exo_suit_helmet",
+    "scguns:exo_suit_chestplate",
+    "scguns:exo_suit_leggings",
+    "scguns:exo_suit_boots",
+    "scguns:exo_suit_core",
+    "scguns:advanced_exo_suit_core",
+    "scguns:air_canister",
+    "scguns:reinforced_air_canister",
+    "scguns:armor_plate",
+    "scguns:heavy_armor_plate",
+    "scguns:pauldron",
+    "scguns:heavy_pauldron",
+    "scguns:armor_pouches",
+    "scguns:heavy_armor_pouches",
   ];
   // for specific recipes that are being disabled
   //const removeById = [
   //  "minecraft:sugar_from_sugar_cane",
   //];
   //removeById.forEach((item) => {
-  //  e.remove({ id: item });
+  //  event.remove({ id: item });
   //});
   removeByOutput.forEach((item) => {
-    e.remove({ output: item });
+    event.remove({ output: item });
   });
 
   // metal smelting recipes
@@ -95,8 +123,14 @@ ServerEvents.recipes((e) => {
     "caverns_and_chasms:tin_ingot",
   ]
   removeBySmelting.forEach((item) => {
-    e.remove([{ type: 'minecraft:smelting', output: item }, { type: 'minecraft:blasting', output: item }]);
+    event.remove([{ type: 'minecraft:smelting', output: item }, { type: 'minecraft:blasting', output: item }]);
   });
+
+  // Scorched Guns 2 special stations (we use Create)
+  event.remove({ type: 'scguns:macerating' })
+  event.remove({ type: 'scguns:powered_macerating' })
+  event.remove({ type: 'scguns:mechanical_pressing' })
+  event.remove({ type: 'scguns:powered_mechanical_pressing' })
 });
 
 // broken mod adds some bad items to tags, try to fix them!
