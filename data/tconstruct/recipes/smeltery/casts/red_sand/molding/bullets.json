@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:molding_table",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "kubejs:bullets"
+    }
+  ],
+  "material": {
+    "tag": "tconstruct:casts/red_sand"
+  },
+  "pattern": {
+    "tag": "kubejs:bullets"
+  },
+  "result": "kubejs:bullet_sand_cast"
+}

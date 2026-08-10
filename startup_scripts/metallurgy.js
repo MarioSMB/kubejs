@@ -32,6 +32,17 @@ StartupEvents.registry('item', e => {
   e.create('gravitite_ingot').tag("minecraft:beacon_payment_items").rarity('RARE')
   e.create('gravitite_nugget').rarity('RARE')
   e.create('raw_gravitite')
+
+  // Scorched Guns 2 extra casts (replacing their molds)
+  function mold(item) {
+    e.create(item + "_cast").texture("kubejs:item/cast/" + item)
+    e.create(item + "_sand_cast").texture("kubejs:item/sand_cast/" + item)
+    e.create(item + "_red_sand_cast").texture("kubejs:item/red_sand_cast/" + item)
+  }
+  mold("bullet")
+  mold("small_casing")
+  mold("medium_casing")
+  mold("large_casing")
 })
 
 StartupEvents.registry('block', e => {

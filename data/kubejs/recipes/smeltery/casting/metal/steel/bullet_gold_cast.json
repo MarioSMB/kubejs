@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/bullet"
+  },
+  "cooling_time": 22,
+  "fluid": {
+    "amount": 10,
+    "tag": "forge:molten_steel"
+  },
+  "result": {
+    "item": "scguns:hardened_bullet"
+  }
+}

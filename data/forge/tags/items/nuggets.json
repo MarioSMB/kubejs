@@ -4,6 +4,7 @@
     "#forge:nuggets/nickel",
     "#forge:nuggets/aluminum",
     "#forge:nuggets/platinum",
-    "#forge:nuggets/gravitite"
+    "#forge:nuggets/gravitite",
+    "#forge:nuggets/witherite"
   ]
 }

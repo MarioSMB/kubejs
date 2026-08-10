@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/silver"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/bullet"
+  },
+  "cast_consumed": true,
+  "cooling_time": 20,
+  "fluid": {
+    "amount": 10,
+    "tag": "forge:molten_silver"
+  },
+  "result": {
+    "item": "scguns_cnc:silver_bullet"
+  }
+}

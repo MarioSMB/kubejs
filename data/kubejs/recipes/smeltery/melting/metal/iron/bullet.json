@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "scguns:standard_bullet"
+  },
+  "result": {
+    "amount": 10,
+    "tag": "forge:molten_iron"
+  },
+  "temperature": 800,
+  "time": 20
+}

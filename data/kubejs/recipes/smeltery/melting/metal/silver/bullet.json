@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:nuggets/silver"
+    }
+  ],
+  "ingredient": {
+    "item": "scguns_cnc:silver_bullet"
+  },
+  "result": {
+    "amount": 10,
+    "tag": "forge:molten_silver"
+  },
+  "temperature": 790,
+  "time": 20
+}

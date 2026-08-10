@@ -1,0 +1,7 @@
+{
+  "values": [
+    {"id":"scguns:standard_bullet","required":false},
+    {"id":"scguns:hardened_bullet","required":false},
+    {"id":"scguns_cnc:silver_bullet","required":false}
+  ]
+}

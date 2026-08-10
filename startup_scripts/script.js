@@ -23,12 +23,6 @@ StartupEvents.registry('item', e => {
 
   e.create('wither_ashes').rarity('EPIC')
 
-  e.create('obdurium_nugget')
-
-  e.create('crushed_raw_yttrium')
-  e.create('crushed_raw_thallium')
-  e.create('crushed_raw_barium')
-
   e.create('crushed_raw_thallasium')
 })
 

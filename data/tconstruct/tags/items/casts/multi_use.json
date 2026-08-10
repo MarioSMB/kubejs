@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#tconstruct:casts/multi_use/bullet",
+    "#tconstruct:casts/multi_use/small_casing",
+    "#tconstruct:casts/multi_use/medium_casing",
+    "#tconstruct:casts/multi_use/large_casing"
+  ]
+}

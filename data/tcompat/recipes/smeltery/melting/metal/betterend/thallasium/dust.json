@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:dusts/thallasium"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betterend"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:dusts/thallasium"
+  },
+  "result": {
+    "amount": 90,
+    "fluid": "tcompat:molten_thallasium"
+  },
+  "temperature": 875,
+  "time": 63
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "kubejs:small_casings"
+    }
+  ],
+  "pattern": "kubejs:small_casing",
+  "pattern_item": {
+    "tag": "forge:sand/red"
+  },
+  "result": {
+    "count": 4,
+    "item": "kubejs:small_casing_red_sand_cast"
+  }
+}

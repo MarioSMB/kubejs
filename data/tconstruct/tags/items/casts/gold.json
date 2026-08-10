@@ -1,0 +1,8 @@
+{
+  "values": [
+    "kubejs:bullet_cast",
+    "kubejs:small_casing_cast",
+    "kubejs:medium_casing_cast",
+    "kubejs:large_casing_cast"
+  ]
+}

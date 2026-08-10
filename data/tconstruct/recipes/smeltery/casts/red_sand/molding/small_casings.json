@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:molding_table",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "kubejs:small_casings"
+    }
+  ],
+  "material": {
+    "tag": "tconstruct:casts/red_sand"
+  },
+  "pattern": {
+    "tag": "kubejs:small_casings"
+  },
+  "result": "kubejs:small_casing_sand_cast"
+}

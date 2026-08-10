@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:molding_table",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "kubejs:medium_casings"
+    }
+  ],
+  "material": {
+    "tag": "tconstruct:casts/sand"
+  },
+  "pattern": {
+    "tag": "kubejs:medium_casings"
+  },
+  "result": "kubejs:medium_casing_sand_cast"
+}
