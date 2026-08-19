@@ -1,5 +1,10 @@
 {
   "values": [
-    {"id":"scguns:small_copper_casing","required":false}
+    {"id":"scguns:small_copper_casing","required":false},
+    {"id":"scguns:small_diamond_steel_casing","required":false},
+    {"id":"scguns:small_iron_casing","required":false},
+    {"id":"scguns:small_brass_casing","required":false},
+    {"id":"scguns_oregunized:small_mauvite_casing","required":false},
+    {"id":"scguns_cnc:small_necromium_casing","required":false}
   ]
 }

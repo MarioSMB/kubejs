@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "kubejs:gun_frames"
+    }
+  ],
+  "pattern": "kubejs:gun_frame",
+  "pattern_item": {
+    "tag": "tconstruct:casts/sand"
+  },
+  "result": "kubejs:gun_frame_sand_cast"
+}

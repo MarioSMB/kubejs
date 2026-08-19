@@ -1,5 +1,7 @@
 {
   "values": [
-    {"id":"scguns:large_iron_casing","required":false}
+    {"id":"scguns:large_iron_casing","required":false},
+    {"id":"scguns:large_brass_casing","required":false},
+    {"id":"scguns_oregunized:large_mauvite_casing","required":false}
   ]
 }

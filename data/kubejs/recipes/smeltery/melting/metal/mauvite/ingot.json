@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/mauvite"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/mauvite"
+  },
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_mauvite"
+  },
+  "temperature": 550,
+  "time": 54
+}

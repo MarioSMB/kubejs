@@ -43,6 +43,12 @@ StartupEvents.registry('item', e => {
   mold("small_casing")
   mold("medium_casing")
   mold("large_casing")
+  mold("gun_frame")
+
+  // Scorched Nugget, made from blend texture from Scorched Guns 2
+  e.create('scorched_nugget').rarity('EPIC')
+  // Diamond Steel Nugget, made from blend texture from Scorched Guns 2
+  e.create('diamond_steel_nugget')
 })
 
 StartupEvents.registry('block', e => {
@@ -157,4 +163,47 @@ StartupEvents.registry('block', e => {
     .tagBlock("minecraft:mineable/pickaxe")
     .tagBlock("minecraft:needs_iron_tool")
     .requiresTool(true);
+})
+
+StartupEvents.registry('fluid', event => {
+
+  // molten anthralite (Scorched Guns 2)
+  event.create('molten_anthralite')
+    .displayName('Molten Anthralite')
+    .stillTexture('kubejs:fluid/molten/compat_ore/anthralite/still')
+    .flowingTexture('kubejs:fluid/molten/compat_ore/anthralite/flowing')
+    .bucketColor(0x806C62)
+    .density(3000)
+    .viscosity(6000)
+    .temperature(1300)
+
+  // molten mauvite (Scorched Guns 2: Caves & Cliffs)
+  event.create('molten_mauvite')
+    .displayName('Molten Mauvite')
+    .stillTexture('kubejs:fluid/molten/compat_alloy/mauvite/still')
+    .flowingTexture('kubejs:fluid/molten/compat_alloy/mauvite/flowing')
+    .bucketColor(0x6F325B)
+    .density(3000)
+    .viscosity(6000)
+    .temperature(1300)
+
+  // molten diamond steel (Scorched Guns 2)
+  event.create('molten_diamond_steel')
+    .displayName('Molten Diamond Steel')
+    .stillTexture('kubejs:fluid/molten/compat_alloy/diamond_steel/still')
+    .flowingTexture('kubejs:fluid/molten/compat_alloy/diamond_steel/flowing')
+    .bucketColor(0x829B9E)
+    .density(3000)
+    .viscosity(6000)
+    .temperature(1300)
+
+  // molten necromium (Caverns & Chasms)
+  event.create('molten_necromium')
+    .displayName('Molten Necromium')
+    .stillTexture('kubejs:fluid/molten/compat_alloy/necromium/still')
+    .flowingTexture('kubejs:fluid/molten/compat_alloy/necromium/flowing')
+    .bucketColor(0x6C877F)
+    .density(3000)
+    .viscosity(6000)
+    .temperature(1300)
 })

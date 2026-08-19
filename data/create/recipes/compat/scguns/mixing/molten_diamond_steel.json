@@ -1,0 +1,32 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluidTag": "forge:molten_anthralite",
+      "nbt": {},
+      "amount": 180
+    },
+    {
+      "fluidTag": "forge:molten_steel",
+      "nbt": {},
+      "amount": 90
+    },
+    {
+      "tag": "forge:gems/diamond",
+      "count": 1
+    }
+  ],
+  "results": [
+    {
+      "fluid": "kubejs:molten_diamond_steel",
+      "amount": 270
+    }
+  ],
+  "heatRequirement": "superheated"
+}

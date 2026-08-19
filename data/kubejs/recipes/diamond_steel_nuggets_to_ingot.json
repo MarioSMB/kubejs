@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/diamond_steel"
+    }
+  },
+  "result": {
+    "item": "scguns:diamond_steel_ingot",
+    "count": 1
+  }
+}

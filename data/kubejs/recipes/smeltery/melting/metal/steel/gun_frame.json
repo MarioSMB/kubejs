@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "scguns:treated_iron_gun_frame"
+  },
+  "result": {
+    "amount": 450,
+    "tag": "forge:molten_steel"
+  },
+  "temperature": 950,
+  "time": 136
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "scguns:diamond_steel_gun_frame"
+  },
+  "result": {
+    "amount": 450,
+    "tag": "forge:molten_diamond_steel"
+  },
+  "temperature": 1450,
+  "time": 176
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "scguns_oregunized:mauvite_helmet"
+  },
+  "result": {
+    "amount": 450,
+    "tag": "forge:molten_mauvite",
+    "unit_size": 10
+  },
+  "temperature": 550,
+  "time": 127
+}

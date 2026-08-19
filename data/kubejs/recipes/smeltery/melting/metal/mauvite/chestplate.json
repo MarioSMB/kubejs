@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "scguns_oregunized:mauvite_chestplate"
+  },
+  "result": {
+    "amount": 720,
+    "tag": "forge:molten_mauvite",
+    "unit_size": 10
+  },
+  "temperature": 550,
+  "time": 161
+}

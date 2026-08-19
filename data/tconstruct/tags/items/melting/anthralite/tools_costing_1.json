@@ -1,0 +1,7 @@
+{
+  "values": [
+    {"id":"scguns:anthralite_shovel","required":false},
+    {"id":"scguns:anthralite_knife","required":false},
+    {"id":"scguns:anthralite_bayonet","required":false}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/diamond_steel"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/diamond_steel"
+  },
+  "result": {
+    "amount": 90,
+    "tag": "forge:molten_diamond_steel"
+  },
+  "temperature": 1450,
+  "time": 79
+}

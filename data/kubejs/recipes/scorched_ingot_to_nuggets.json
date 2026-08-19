@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/signalum"
+    }
+  ],
+  "result": {
+    "item": "kubejs:scorched_nugget",
+    "count": 9
+  }
+}

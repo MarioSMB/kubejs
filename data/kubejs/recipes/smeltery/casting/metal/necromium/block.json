@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/necromium"
+    }
+  ],
+  "cooling_time": 161,
+  "fluid": {
+    "amount": 810,
+    "tag": "forge:molten_necromium"
+  },
+  "result": {
+    "tag": "forge:storage_blocks/necromium"
+  }
+}

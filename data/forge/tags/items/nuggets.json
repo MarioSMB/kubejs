@@ -5,6 +5,8 @@
     "#forge:nuggets/aluminum",
     "#forge:nuggets/platinum",
     "#forge:nuggets/gravitite",
-    "#forge:nuggets/witherite"
+    "#forge:nuggets/witherite",
+    "#forge:nuggets/signalum",
+    "#forge:nuggets/diamond_steel"
   ]
 }

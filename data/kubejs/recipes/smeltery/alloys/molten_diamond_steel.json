@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 180,
+      "tag": "forge:molten_anthralite"
+    },
+    {
+      "amount": 90,
+      "tag": "forge:molten_steel"
+    },
+    {
+      "amount": 100,
+      "tag": "tconstruct:molten_diamond"
+    }
+  ],
+  "result": {
+    "amount": 270,
+    "tag": "forge:molten_diamond_steel"
+  },
+  "temperature": 1450
+}

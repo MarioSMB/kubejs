@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/medium_casing"
+  },
+  "cast_consumed": true,
+  "cooling_time": 29,
+  "fluid": {
+    "amount": 20,
+    "tag": "forge:molten_diamond_steel"
+  },
+  "result": {
+    "item": "scguns:medium_diamond_steel_casing"
+  }
+}

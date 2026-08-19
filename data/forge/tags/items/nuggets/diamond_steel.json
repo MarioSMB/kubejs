@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"kubejs:diamond_steel_nugget","required":false}
+  ]
+}

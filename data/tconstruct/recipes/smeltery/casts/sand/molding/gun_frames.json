@@ -1,0 +1,16 @@
+{
+  "type": "tconstruct:molding_table",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "kubejs:gun_frames"
+    }
+  ],
+  "material": {
+    "tag": "tconstruct:casts/sand"
+  },
+  "pattern": {
+    "tag": "kubejs:gun_frames"
+  },
+  "result": "kubejs:gun_frame_sand_cast"
+}

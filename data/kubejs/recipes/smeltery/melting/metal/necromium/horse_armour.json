@@ -1,0 +1,24 @@
+{
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "caverns_and_chasms"
+		}
+	],
+	"type": "tconstruct:melting",
+	"ingredient": {
+		"item": "caverns_and_chasms:necromium_horse_armor"
+	},
+	"result": {
+		"fluid": "kubejs:molten_necromium",
+		"amount": 90
+	},
+	"byproducts": [
+		{
+			"fluid": "tconstruct:molten_diamond",
+			"amount": 700
+		}
+	],
+	"temperature": 1250,
+	"time": 159
+}

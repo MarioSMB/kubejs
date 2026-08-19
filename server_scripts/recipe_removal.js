@@ -115,16 +115,18 @@ ServerEvents.recipes(event => {
     "dragnlivestock:trans_racing_blanket",
     "dragnlivestock:trans_western_blanket",
   ];
+  removeByOutput.forEach((item) => {
+    event.remove({ output: item });
+  });
+
   // for specific recipes that are being disabled
   //const removeById = [
-  //  "minecraft:sugar_from_sugar_cane",
+  //  "infernalexp:shroombright_from_tears",
+  //  "infernalexp:shroomblight_from_tears",
   //];
   //removeById.forEach((item) => {
   //  event.remove({ id: item });
   //});
-  removeByOutput.forEach((item) => {
-    event.remove({ output: item });
-  });
 
   // metal smelting recipes
   const removeBySmelting = [
@@ -135,12 +137,15 @@ ServerEvents.recipes(event => {
     "kubejs:nickel_ingot",
     "kubejs:aluminum_ingot",
     "oreganized:silver_ingot",
+    "oreganized:lead_ingot",
     "tinkers_reforged:yttrium_ingot",
     "tinkers_reforged:barium_ingot",
     "tinkers_reforged:thallium_ingot",
     "tconstruct:cobalt_ingot",
     "betterend:thallasium_ingot",
     "caverns_and_chasms:tin_ingot",
+    "scguns:anthralite_ingot",
+    "scguns_oregunized:mauvite_ingot",
   ]
   removeBySmelting.forEach((item) => {
     event.remove([{ type: 'minecraft:smelting', output: item }, { type: 'minecraft:blasting', output: item }]);
@@ -161,6 +166,22 @@ ServerEvents.tags('block', event => {
 
 ServerEvents.tags('item', event => {
   event.remove('forge:plates', 'tinkers_reforged:graphite_plate')
+  event.remove('minecraft:trim_materials', 'caverns_and_chasms:silver_ingot')
+
+  event.remove('alexscaves:gingerbread_man_steals', 'snowyspirit:eggnog')
+  event.remove('c:tools/melee_weapon', 'minecraft:mace')
+  event.remove('c:foods', 'minecraft:ominous_bottle')
+  event.remove('c:music_discs', 'minecraft:music_disc_creator')
+  event.remove('c:music_discs', 'minecraft:music_disc_creator_music_box')
+  event.remove('c:music_discs', 'minecraft:music_disc_precipice')
+  event.remove('scguns:grenades', 'scguns_oregunized:esd_grenade')
+  event.remove('scguns:fragile', 'scguns_oregunized:luxurious_vase')
+  event.remove('forge:heads', 'inhabitants:impaler_head_wall')
+  event.remove('forge:heads', 'inhabitants:impaler_head_wall_dripstone')
+  event.remove('forge:heads', 'inhabitants:impaler_head_wall_albino')
+  event.remove('forge:heads', 'inhabitants:impaler_head_wall_forlorn_hollows')
+  event.remove('forge:rabbit_hutches', 'dragnlivestock:spruce_rabbit_hutch')
+  event.remove('unusual_furniture:card', 'create_furniture:blank_ticket')
 
   event.remove('forge:raw_meat', 'farmersdelight:chicken_cuts')
   event.remove('forge:raw_meat', 'farmersdelight:mutton_chops')

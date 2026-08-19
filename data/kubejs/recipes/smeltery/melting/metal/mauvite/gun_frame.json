@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "scguns_oregunized:mauvite_gun_frame"
+  },
+  "result": {
+    "amount": 450,
+    "tag": "forge:molten_mauvite"
+  },
+  "temperature": 550,
+  "time": 127
+}

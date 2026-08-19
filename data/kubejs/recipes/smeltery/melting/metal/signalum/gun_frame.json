@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "scguns:scorched_gun_frame"
+  },
+  "result": {
+    "amount": 450,
+    "tag": "forge:molten_signalum"
+  },
+  "temperature": 999,
+  "time": 135
+}

@@ -1,0 +1,14 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/small_casing"
+  },
+  "cooling_time": 19,
+  "fluid": {
+    "amount": 10,
+    "tag": "forge:molten_diamond_steel"
+  },
+  "result": {
+    "item": "scguns:small_diamond_steel_casing"
+  }
+}

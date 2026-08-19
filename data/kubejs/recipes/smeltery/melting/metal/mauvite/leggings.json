@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "tag": "tconstruct:melting/mauvite/tools_costing_7"
+  },
+  "result": {
+    "amount": 630,
+    "tag": "forge:molten_mauvite",
+    "unit_size": 10
+  },
+  "temperature": 550,
+  "time": 151
+}

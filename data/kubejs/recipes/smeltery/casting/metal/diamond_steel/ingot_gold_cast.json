@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:ingots/diamond_steel"
+    }
+  ],
+  "cooling_time": 90,
+  "fluid": {
+    "amount": 90,
+    "tag": "forge:molten_diamond_steel"
+  },
+  "result": {
+    "tag": "forge:ingots/diamond_steel"
+  }
+}

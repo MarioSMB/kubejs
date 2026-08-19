@@ -13,4 +13,8 @@ ServerEvents.tags('item', event => {
     event.remove('minecraft:beacon_payment_items', 'aether:enchanted_gravitite')
 
     event.remove('forge:ingots', 'darkerdepths:forsaken_bronze_ingot')
+    event.remove('forge:ingots', 'scguns:treated_iron_ingot')
+    event.remove('forge:ingots', 'scguns:treated_brass_ingot')
+
+    event.remove('forge:nuggets', 'scguns:treated_iron_nugget')
 })

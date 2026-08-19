@@ -1,0 +1,13 @@
+{
+  "values": [
+    {"id":"scguns:copper_gun_frame","required":false},
+    {"id":"scguns:iron_gun_frame","required":false},
+    {"id":"scguns:diamond_steel_gun_frame","required":false},
+    {"id":"scguns:scorched_gun_frame","required":false},
+    {"id":"scguns:treated_brass_gun_frame","required":false},
+    {"id":"scguns:treated_iron_gun_frame","required":false},
+    {"id":"scguns_oregunized:mauvite_gun_frame","required":false},
+    {"id":"scguns_oregunized:electrum_gun_frame","required":false},
+    {"id":"scguns_cnc:necromium_gun_frame","required":false}
+  ]
+}

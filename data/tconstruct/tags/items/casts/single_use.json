@@ -3,6 +3,7 @@
     "#tconstruct:casts/single_use/bullet",
     "#tconstruct:casts/single_use/small_casing",
     "#tconstruct:casts/single_use/medium_casing",
-    "#tconstruct:casts/single_use/large_casing"
+    "#tconstruct:casts/single_use/large_casing",
+    "#tconstruct:casts/single_use/gun_frame"
   ]
 }

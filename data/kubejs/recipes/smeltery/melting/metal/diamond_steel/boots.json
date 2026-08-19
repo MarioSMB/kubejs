@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "tag": "tconstruct:melting/diamond_steel/tools_costing_4"
+  },
+  "result": {
+    "amount": 360,
+    "tag": "forge:molten_diamond_steel",
+    "unit_size": 10
+  },
+  "temperature": 1450,
+  "time": 158
+}

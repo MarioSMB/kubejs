@@ -8,6 +8,8 @@
     "#forge:storage_blocks/platinum",
     "#forge:storage_blocks/raw_platinum",
     "#forge:storage_blocks/gravitite",
-    "#forge:storage_blocks/raw_gravitite"
+    "#forge:storage_blocks/raw_gravitite",
+    "#forge:storage_blocks/mauvite",
+    "#forge:storage_blocks/signalum"
   ]
 }

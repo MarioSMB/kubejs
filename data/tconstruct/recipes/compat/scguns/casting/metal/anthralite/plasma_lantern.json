@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "scguns"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "tconstruct"
+        }
+      ]
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "scguns:plasma"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_anthralite",
+    "amount": 80
+  },
+  "result": "scguns:plasma_lantern",
+  "cooling_time": 59
+}

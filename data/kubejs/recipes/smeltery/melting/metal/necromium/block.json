@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "mantle:tag_filled",
+      "tag": "forge:storage_blocks/necromium"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/necromium"
+  },
+  "result": {
+    "amount": 810,
+    "tag": "forge:molten_necromium"
+  },
+  "temperature": 1250,
+  "time": 218
+}

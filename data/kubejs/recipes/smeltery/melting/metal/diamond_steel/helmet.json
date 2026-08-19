@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "scguns:diamond_steel_helmet"
+  },
+  "result": {
+    "amount": 450,
+    "tag": "forge:molten_diamond_steel",
+    "unit_size": 10
+  },
+  "temperature": 1450,
+  "time": 176
+}

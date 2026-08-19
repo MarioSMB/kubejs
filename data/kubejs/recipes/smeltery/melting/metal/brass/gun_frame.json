@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "scguns:treated_brass_gun_frame"
+  },
+  "result": {
+    "amount": 450,
+    "tag": "forge:molten_brass"
+  },
+  "temperature": 605,
+  "time": 137
+}
