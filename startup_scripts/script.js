@@ -7,12 +7,6 @@ StartupEvents.registry('item', e => {
 
   //e.create('tattered_elytra').tooltip('Maybe it can be fixed...')
 
-  e.create('copper_backpack_upgrade')
-  e.create('iron_backpack_upgrade')
-  e.create('gold_backpack_upgrade')
-  e.create('diamond_backpack_upgrade')
-  //e.create('netherite_backpack_upgrade')
-
   e.create('crushed_raw_cobalt')
 
   e.create('ignitium_nugget').rarity('EPIC')

@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#forge:raw_materials/nickel",
-    "#forge:raw_materials/aluminum",
-    "#forge:raw_materials/platinum",
     "#forge:raw_materials/gravitite"
   ]
 }

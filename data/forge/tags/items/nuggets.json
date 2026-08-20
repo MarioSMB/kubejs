@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#forge:nuggets/nickel",
-    "#forge:nuggets/aluminum",
-    "#forge:nuggets/platinum",
     "#forge:nuggets/gravitite",
     "#forge:nuggets/witherite",
     "#forge:nuggets/signalum",

@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#forge:ingots/nickel",
-    "#forge:ingots/aluminum",
-    "#forge:ingots/platinum",
     "#forge:ingots/gravitite",
     "#forge:ingots/signalum"
   ]

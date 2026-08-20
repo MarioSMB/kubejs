@@ -114,6 +114,15 @@ ServerEvents.recipes(event => {
     "dragnlivestock:trans_modern_blanket",
     "dragnlivestock:trans_racing_blanket",
     "dragnlivestock:trans_western_blanket",
+    "backpacked:oak_backpack_shelf",
+    "backpacked:spruce_backpack_shelf",
+    "backpacked:birch_backpack_shelf",
+    "backpacked:jungle_backpack_shelf",
+    "backpacked:dark_oak_backpack_shelf",
+    "backpacked:acacia_backpack_shelf",
+    "backpacked:crimson_backpack_shelf",
+    "backpacked:warped_backpack_shelf",
+    "backpacked:cherry_backpack_shelf",
   ];
   removeByOutput.forEach((item) => {
     event.remove({ output: item });
