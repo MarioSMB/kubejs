@@ -171,6 +171,9 @@ ServerEvents.recipes(event => {
 ServerEvents.tags('block', event => {
   event.remove('create:non_movable', 'unusual_furniture:industrial_bench')
   event.remove('create:seats', 'unusual_furniture:industrial_bench')
+  event.remove('scguns:fragile', 'scguns_oregunized:luxurious_vase')
+  event.remove('forge:sit_tag', 'unusual_furniture:industrial_bench')
+  event.remove('forge:rabbit_hutches', 'dragnlivestock:spruce_rabbit_hutch')
 })
 
 ServerEvents.tags('item', event => {
@@ -179,18 +182,20 @@ ServerEvents.tags('item', event => {
 
   event.remove('alexscaves:gingerbread_man_steals', 'snowyspirit:eggnog')
   event.remove('c:tools/melee_weapon', 'minecraft:mace')
+  event.remove('c:tools/mace', 'minecraft:mace')
+  event.remove('c:rods/breeze', 'minecraft:breeze_rod')
   event.remove('c:foods', 'minecraft:ominous_bottle')
   event.remove('c:music_discs', 'minecraft:music_disc_creator')
   event.remove('c:music_discs', 'minecraft:music_disc_creator_music_box')
   event.remove('c:music_discs', 'minecraft:music_disc_precipice')
   event.remove('scguns:grenades', 'scguns_oregunized:esd_grenade')
-  event.remove('scguns:fragile', 'scguns_oregunized:luxurious_vase')
   event.remove('forge:heads', 'inhabitants:impaler_head_wall')
   event.remove('forge:heads', 'inhabitants:impaler_head_wall_dripstone')
   event.remove('forge:heads', 'inhabitants:impaler_head_wall_albino')
   event.remove('forge:heads', 'inhabitants:impaler_head_wall_forlorn_hollows')
-  event.remove('forge:rabbit_hutches', 'dragnlivestock:spruce_rabbit_hutch')
   event.remove('unusual_furniture:card', 'create_furniture:blank_ticket')
+  event.remove('create_new_age:nuclear/fuel', 'create_new_age:nuclear_fuel')
+  event.remove('create_new_age:energy_28800', 'create_new_age:nuclear_fuel')
 
   event.remove('forge:raw_meat', 'farmersdelight:chicken_cuts')
   event.remove('forge:raw_meat', 'farmersdelight:mutton_chops')
