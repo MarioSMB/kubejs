@@ -161,6 +161,17 @@ StartupEvents.registry('fluid', e => {
       .noBucket()
       .noBlock()
 
+  // Crabber's Delight coconut milk
+  // texture derived from bubble tea in Create Central Kitchen
+  e.create('coconut_milk')
+    .displayName('Coconut Milk')
+    .stillTexture('kubejs:fluid/coconut_milk_still')
+    .flowingTexture('kubejs:fluid/coconut_milk_flowing')
+    .bucketColor(0xF1F0EE)
+    .density(2000)
+    .viscosity(2000)
+    .temperature(0)
+
   e.create('fish_oil')
       .thinTexture(0xEBBE65)
       .bucketColor(0xEBBE65)
