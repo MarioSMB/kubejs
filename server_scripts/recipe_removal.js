@@ -163,6 +163,16 @@ ServerEvents.recipes(event => {
     "wyrmroost:red_geode_block",
     "wyrmroost:purple_geode_block",
     "wyrmroost:jewelled_apple",
+    "betterend:mossy_glowshroom_composter",
+    "betterend:pythadendron_composter",
+    "betterend:end_lotus_composter",
+    "betterend:lacugrove_composter",
+    "betterend:dragon_tree_composter",
+    "betterend:tenanea_composter",
+    "betterend:helix_tree_composter",
+    "betterend:umbrella_tree_composter",
+    "betterend:jellyshroom_composter",
+    "betterend:lucernia_composter",
   ];
   removeByOutput.forEach((item) => {
     event.remove({ output: item });
