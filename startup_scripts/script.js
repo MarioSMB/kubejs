@@ -18,6 +18,9 @@ StartupEvents.registry('item', e => {
   e.create('wither_ashes').rarity('EPIC')
 
   e.create('crushed_raw_thallasium')
+
+  // from Spelunkery
+  e.create('emerald_shard')
 })
 
 ItemEvents.modification(event => {
