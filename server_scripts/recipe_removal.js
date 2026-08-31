@@ -247,8 +247,9 @@ ServerEvents.tags('item', event => {
   event.remove('forge:heads', 'inhabitants:impaler_head_wall_albino')
   event.remove('forge:heads', 'inhabitants:impaler_head_wall_forlorn_hollows')
   event.remove('unusual_furniture:card', 'create_furniture:blank_ticket')
+  event.remove('unusual_furniture:card', 'create_furniture:blank_card')
   event.remove('create_new_age:nuclear/fuel', 'create_new_age:nuclear_fuel')
-  event.remove('create_new_age:energy_28800', 'create_new_age:nuclear_fuel')
+  event.remove('create_new_age:nuclear/energy_28800', 'create_new_age:nuclear_fuel')
 
   event.remove('forge:raw_meat', 'farmersdelight:chicken_cuts')
   event.remove('forge:raw_meat', 'farmersdelight:mutton_chops')
