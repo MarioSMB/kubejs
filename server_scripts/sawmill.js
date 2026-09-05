@@ -189,10 +189,10 @@ ServerEvents.recipes(event => {
   sawmill("netherexp:claret_", "stems");
 
   // Crabber's Delight
-  sawmill("crabbersdelight:palm_", "logs");
+  //sawmill("crabbersdelight:palm_", "logs");
 
   // Backport 26.3
-  sawmill("backport:poplar_", "logs");
+  //sawmill("backport:poplar_", "logs");
 
   // Infernal Expansion
   // NOTE: the tag for their logs is added by me, they didn't add one...
