@@ -227,6 +227,10 @@ ServerEvents.tags('block', event => {
   event.remove('scguns:fragile', 'scguns_oregunized:luxurious_vase')
   event.remove('forge:sit_tag', 'unusual_furniture:industrial_bench')
   event.remove('forge:rabbit_hutches', 'dragnlivestock:spruce_rabbit_hutch')
+
+  // fixes for BetterEnd leaves that aren't actually leaves
+  event.remove('minecraft:leaves', 'betterend:helix_tree_leaves')
+  event.remove('minecraft:leaves', 'betterend:umbrella_tree_membrane')
 })
 
 ServerEvents.tags('item', event => {
