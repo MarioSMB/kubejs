@@ -125,8 +125,9 @@ ServerEvents.recipes(event => {
   sawmill("minecraft:jungle_", "logs");
   sawmill("minecraft:mangrove_", "logs");
   sawmill("minecraft:oak_", "logs");
-  // support for pale oak in 1.20 provided by Vanilla Backport
+  // support for pale oak and poplar in 1.20 provided by Vanilla Backport
   sawmill("minecraft:pale_oak_", "logs");
+  sawmill("minecraft:poplar_", "logs");
   sawmill("minecraft:spruce_", "logs");
   sawmill("minecraft:warped_", "stems");
 
