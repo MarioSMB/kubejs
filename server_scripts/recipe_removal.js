@@ -266,3 +266,15 @@ ServerEvents.tags('item', event => {
   event.remove('forge:gems', 'wyrmroost:red_geode')
   event.remove('forge:gems', 'wyrmroost:purple_geode')
 })
+
+ServerEvents.highPriorityData(event => {
+    event.addJson('cc_compat:loot_tables/blocks/immersiveengineering_ingot_leadi', {
+        type: 'minecraft:block',
+        pools: [
+            {
+                rolls: 0,
+                entries: []
+            }
+        ]
+    });
+});
