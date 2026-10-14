@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
 
   // Environmental
   // disabled since Windswept Integrations replaces it with Windswept pine
-  //sawmill("environmental:pine_", "logs");
+  sawmill("environmental:pine_", "logs");
   sawmill("environmental:plum_", "logs");
   sawmill("environmental:willow_", "logs");
   sawmill("environmental:wisteria_", "logs");
