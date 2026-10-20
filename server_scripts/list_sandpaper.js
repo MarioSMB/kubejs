@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
     event.forEachRecipe({}, recipe => {
         let type = String(recipe.getType()); 
         
-        if (type === 'create:sandpaper_polishing') {
+        if (type === 'create:sandpaper_polishing' || type.includes('sandpaper')) {
             try {
                 // Safely grab the raw JSON results from the recipe
                 let json = recipe.getJson();
