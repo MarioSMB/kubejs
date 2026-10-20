@@ -1,7 +1,11 @@
 ServerEvents.recipes(event => {
-  event.forEachRecipe(recipe => {
-    // Access recipe properties
-    console.info(recipe.getId()) // Prints the recipe ID
-    console.info(recipe.getOriginalRecipeIngredients()) // Prints ingredients
-  })
+    let count = 0
+    
+    event.forEachRecipe({}, recipe => {
+        count++
+        // Prints the recipe ID and its entire JSON structure to logs/kubejs/server.log
+        console.info(`Recipe #${count}: ${recipe.getId()} -> ${recipe.toJson()}`)
+    })
+    
+    console.info(`Successfully listed ${count} total recipes.`)
 })
