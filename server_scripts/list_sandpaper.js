@@ -1,32 +1,41 @@
 ServerEvents.recipes(event => {
     let itemList = [];
 
-    // Loop through absolutely every recipe loaded in the game
     event.forEachRecipe({}, recipe => {
-        let type = String(recipe.getType()); // Force convert to string to ensure matching
+        let type = String(recipe.getType()); 
         
-        // 1.20.1 Registry check for Create's sandpaper polishing
         if (type === 'create:sandpaper_polishing') {
-            
-            // Fetch outputs compatible with 1.20.1 architecture
-            let outputs = recipe.getOutputs();
-            
-            outputs.forEach(output => {
-                let outputId = String(output.getId());
-                
-                // Keep the list unique and clean
-                if (!itemList.includes(outputId) && outputId !== 'minecraft:air') {
-                    itemList.push(outputId);
+            try {
+                // Safely grab the raw JSON results from the recipe
+                let json = recipe.getJson();
+                if (json && json.has('results')) {
+                    let resultsArray = json.get('results').getAsJsonArray();
+                    resultsArray.forEach(element => {
+                        if (element.isJsonObject() && element.getAsJsonObject().has('item')) {
+                            let itemId = String(element.getAsJsonObject().get('item').getAsString());
+                            if (!itemList.includes(itemId)) {
+                                itemList.push(itemId);
+                            }
+                        }
+                    });
                 }
-            });
+            } catch (err) {
+                // Ignore silent parsing issues
+            }
         }
     });
 
-    // Alphabetical sort for neat reading
     itemList.sort();
 
-    // Safely write the file into your Minecraft instance's kubejs/output/ directory
-    JsonIO.write('kubejs/output/create_sandpaper_polishing.txt', itemList.join('\n'));
+    // PRINT DIRECTLY TO THE LOGS
+    console.log("=========================================");
+    console.log(`[KubeJS] SANDPAPER ITEMS FOUND (${itemList.length}):`);
+    console.log("=========================================");
     
-    console.log(`--- [KubeJS] Successfully dumped ${itemList.length} Sandpaper Polishing items! ---`);
+    // Print each item on a brand new line
+    itemList.forEach(item => {
+        console.log(`OUTPUT_ITEM: ${item}`);
+    });
+    
+    console.log("=========================================");
 });
