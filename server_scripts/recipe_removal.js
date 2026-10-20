@@ -255,13 +255,6 @@ ServerEvents.tags('item', event => {
   event.remove('create_new_age:nuclear/fuel', 'create_new_age:nuclear_fuel')
   event.remove('create_new_age:nuclear/energy_28800', 'create_new_age:nuclear_fuel')
 
-  event.remove('forge:raw_meat', 'farmersdelight:chicken_cuts')
-  event.remove('forge:raw_meat', 'farmersdelight:mutton_chops')
-  event.remove('forge:raw_chicken', 'farmersdelight:chicken_cuts')
-  event.remove('forge:raw_mutton', 'farmersdelight:mutton_chops')
-  event.remove('forge:cooked_mutton', 'farmersdelight:cooked_mutton_chops')
-  event.remove('forge:cooked_chicken', 'farmersdelight:cooked_chicken_cuts')
-
   event.remove('forge:gems', 'wyrmroost:blue_geode')
   event.remove('forge:gems', 'wyrmroost:red_geode')
   event.remove('forge:gems', 'wyrmroost:purple_geode')
