@@ -1,0 +1,14 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "targets": [
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves"
+  ],
+  "replacement": "darkerdepths:molten_caverns",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": 0.75
+    }
+  }
+}
