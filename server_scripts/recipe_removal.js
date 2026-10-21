@@ -218,6 +218,9 @@ ServerEvents.recipes(event => {
   event.remove({ type: 'scguns:powered_macerating' })
   event.remove({ type: 'scguns:mechanical_pressing' })
   event.remove({ type: 'scguns:powered_mechanical_pressing' })
+
+  // Create: Fluid sandblasting (we use Create Dragons Plus)
+  event.remove({ type: 'fluid:sandblasting' })
 });
 
 // broken mod adds some bad items to tags, try to fix them!
