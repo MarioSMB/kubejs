@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld",
+      "biomes": [
+        {
+          "biome": "minecraft:pale_garden",
+          "parameters": {
+            "temperature": [-0.5, 0.3],
+            "humidity": [0.5, 1.0],
+            "continentalness": [-0.2, 0.2],
+            "erosion": [-0.3, 0.3],
+            "depth": 0.0,
+            "weirdness": [-0.5, 0.5]
+          }
+        },
+        {
+          "biome": "minecraft:dappled_forest",
+          "parameters": {
+            "temperature": [0.2, 0.7],
+            "humidity": [0.2, 0.6],
+            "continentalness": [-0.1, 0.4],
+            "erosion": [-0.2, 0.4],
+            "depth": 0.0,
+            "weirdness": [-0.3, 0.3]
+          }
+        }
+      ]
+    }
+  }
+}
