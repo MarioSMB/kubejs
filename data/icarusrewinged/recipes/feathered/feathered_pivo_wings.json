@@ -8,7 +8,7 @@
   "key": {
     "A": { "item": "minecraft:glass" },
     "B": { "item": "minecraft:sponge" },
-    "C": { "item": "minecraft:honey_bottle" },
+    "C": { "item": "brewinandchewin:beer" },
     "D": { "item": "kubejs:soul_of_flight" }
   },
   "result": {
