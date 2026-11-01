@@ -123,46 +123,6 @@ ServerEvents.recipes(event => {
     "backpacked:crimson_backpack_shelf",
     "backpacked:warped_backpack_shelf",
     "backpacked:cherry_backpack_shelf",
-    "wyrmroost:blue_geode",
-    "wyrmroost:red_geode",
-    "wyrmroost:purple_geode",
-    "wyrmroost:blue_geode_sword",
-    "wyrmroost:blue_geode_pickaxe",
-    "wyrmroost:blue_geode_axe",
-    "wyrmroost:blue_geode_shovel",
-    "wyrmroost:blue_geode_hoe",
-    "wyrmroost:blue_geode_helmet",
-    "wyrmroost:blue_geode_chestplate",
-    "wyrmroost:blue_geode_leggings",
-    "wyrmroost:blue_geode_boots",
-    "wyrmroost:blue_geode_tipped_arrow",
-    "wyrmroost:red_geode_sword",
-    "wyrmroost:red_geode_pickaxe",
-    "wyrmroost:red_geode_axe",
-    "wyrmroost:red_geode_shovel",
-    "wyrmroost:red_geode_hoe",
-    "wyrmroost:red_geode_helmet",
-    "wyrmroost:red_geode_chestplate",
-    "wyrmroost:red_geode_leggings",
-    "wyrmroost:red_geode_boots",
-    "wyrmroost:red_geode_tipped_arrow",
-    "wyrmroost:purple_geode_sword",
-    "wyrmroost:purple_geode_pickaxe",
-    "wyrmroost:purple_geode_axe",
-    "wyrmroost:purple_geode_shovel",
-    "wyrmroost:purple_geode_hoe",
-    "wyrmroost:purple_geode_helmet",
-    "wyrmroost:purple_geode_chestplate",
-    "wyrmroost:purple_geode_leggings",
-    "wyrmroost:purple_geode_boots",
-    "wyrmroost:purple_geode_tipped_arrow",
-    "wyrmroost:blue_geode_dragon_armor",
-    "wyrmroost:red_geode_dragon_armor",
-    "wyrmroost:purple_geode_dragon_armor",
-    "wyrmroost:blue_geode_block",
-    "wyrmroost:red_geode_block",
-    "wyrmroost:purple_geode_block",
-    "wyrmroost:jewelled_apple",
     "betterend:mossy_glowshroom_composter",
     "betterend:pythadendron_composter",
     "betterend:end_lotus_composter",
@@ -205,9 +165,6 @@ ServerEvents.recipes(event => {
     "caverns_and_chasms:tin_ingot",
     "scguns:anthralite_ingot",
     "scguns_oregunized:mauvite_ingot",
-    "wyrmroost:blue_geode",
-    "wyrmroost:red_geode",
-    "wyrmroost:purple_geode",
   ]
   removeBySmelting.forEach((item) => {
     event.remove([{ type: 'minecraft:smelting', output: item }, { type: 'minecraft:blasting', output: item }]);
@@ -257,10 +214,6 @@ ServerEvents.tags('item', event => {
   event.remove('unusual_furniture:card', 'create_furniture:blank_card')
   event.remove('create_new_age:nuclear/fuel', 'create_new_age:nuclear_fuel')
   event.remove('create_new_age:nuclear/energy_28800', 'create_new_age:nuclear_fuel')
-
-  event.remove('forge:gems', 'wyrmroost:blue_geode')
-  event.remove('forge:gems', 'wyrmroost:red_geode')
-  event.remove('forge:gems', 'wyrmroost:purple_geode')
 })
 
 ServerEvents.highPriorityData(event => {
