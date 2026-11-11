@@ -15,7 +15,7 @@ StartupEvents.registry('item', e => {
 
   e.create('soul_of_flight').rarity('RARE').tooltip('The essence of powerful flying creatures')
 
-  e.create('wither_ashes').rarity('EPIC')
+  e.create('wither_ashes').rarity('EPIC').tooltip('Burned up remains of the Wither')
 
   e.create('crushed_raw_thallasium')
 
